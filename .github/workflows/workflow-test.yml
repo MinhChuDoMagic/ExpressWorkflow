@@ -1,5 +1,5 @@
 name: workflow-test
-run-name: $({github.actor}) is learning github action
+run-name: ${{github.actor}} is learning github action
 on: [push]
 jobs:
   check-bats-version:
